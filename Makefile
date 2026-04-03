@@ -63,10 +63,10 @@ help:
 	@echo "|_____________________________________|"
 	@echo "| make all: compile and simulate      |"
 	@echo "| make wave: open gtkwave             |"
-	@echo "| make rtl: create the schematic     |"
+	@echo "| make rtl: create the schematic      |"
 	@echo "| make compile: compile files         |"	
 	@echo "| make run: execute simulation        |"
 	@echo "| make clean: clean build             |"
 	@echo "|_____________________________________|"
 
-.PHONY: all compile run wave clean
+.PHONY: all compile run wave rtl clean
